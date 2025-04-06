@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+   min-height: 100%;
+   background-image: url(img/pexels-pixabay-314726.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+div#responsive-imgs img {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3%;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
